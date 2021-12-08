@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: #fff2da;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.menu a:hover{
+    color: whitesmoke;
+    transition: .5s;
+}
+
+.social-midias img{
+    display: inline-block;
+    height: 2.5vh;
+    padding-right: .7em;
+}
+
+.social-midias{
+    display: flex;
+    background-color: #e6c7ab;
+    width: 27em;
+    height: 9vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navegar{
+    display: flex;
+}
+.navegar a{
+    text-decoration: none;
+    height: 9vh;
+    font-family: roboto;
+    font-size: 2.5vh;
+    color: #191510;
+    font-weight: 1000;
+}
+
+.block1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  #d4b391;
+    width: 13em;
+}
+
+.block2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c39b84;
+    width: 8.5em;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+    height: 1200px;
+}
+
+.presents{
+    display: flex;
+    width: 50vw;
+    height: 30px;
+    text-align: justify;
+    word-spacing: .1em;
+    margin-top: 21vh;
+    margin-right: 9em;
+    margin-left: 2em;
+    font-size: 1.8rem;
+}
+
+.img-microp{
+    margin-left: 15rem;
+    border-radius: 50%;
+    margin-top: 7rem;
+}
+
+.the-art{
+    display: flex;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    justify-content: center;
+    margin-top: 20vh;
+}
+
+.fotos img{
+    display: grid;
+}
+
+.foto-img{
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    margin: 40px;
+}
+
